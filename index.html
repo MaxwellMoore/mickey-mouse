@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mickey Mouse</title>
+  </head>
+  <body>
+    <div class="center">
+      <div class="container">
+        <div class="head-base bg-black"></div>
+        <div class="left-ear bg-black"></div>
+        <div class="right-ear bg-black"></div>
+        <div class="face-bottom-left-outline bg-black"></div>
+        <div class="face-bottom-right-outline bg-black"></div>
+        <div class="face-bottom-left bg-white"></div>
+        <div class="face-bottom-right bg-white"></div>
+        <div class="face-top-left bg-white"></div>
+        <div class="face-top-right bg-white"></div>
+        <div class="left-eye bg-black"></div>
+        <div class="right-eye bg-black"></div>
+        <div class="nose bg-black"></div>
+      </div>
+    </div>
+
+    <style>
+      .bg-black {
+        background-color: black;
+      }
+      .bg-white {
+        background-color: white;
+      }
+      .center {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: lightcoral;
+      }
+      .container {
+        position: relative;
+      }
+      .head-base {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        position: relative;
+      }
+      .left-ear {
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        position: absolute;
+        top: -115px;
+        left: -115px;
+      }
+      .right-ear {
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        position: absolute;
+        top: -115px;
+        right: -115px;
+      }
+
+      .face-bottom-left-outline {
+        width: 190px;
+        height: 320px;
+        border-radius: 50%;
+        transform: rotate(-60deg);
+        position: absolute;
+        bottom: -60px;
+        left: 25px;
+      }
+      .face-bottom-right-outline {
+        width: 190px;
+        height: 320px;
+        border-radius: 50%;
+        transform: rotate(60deg);
+        position: absolute;
+        bottom: -60px;
+        right: 25px;
+      }
+      .face-bottom-left {
+        width: 170px;
+        height: 300px;
+        border-radius: 50%;
+        transform: rotate(-60deg);
+        position: absolute;
+        bottom: -50px;
+        left: 40px;
+      }
+      .face-bottom-right {
+        width: 170px;
+        height: 300px;
+        border-radius: 50%;
+        transform: rotate(60deg);
+        position: absolute;
+        bottom: -50px;
+        right: 40px;
+      }
+      .face-top-left {
+        width: 170px;
+        height: 250px;
+        border-radius: 50%;
+        position: absolute;
+        top: 25px;
+        left: 60px;
+      }
+      .face-top-right {
+        width: 170px;
+        height: 250px;
+        border-radius: 50%;
+        position: absolute;
+        top: 25px;
+        right: 60px;
+      }
+      .left-eye {
+        width: 50px;
+        height: 115px;
+        border-radius: 50%;
+        position: absolute;
+        top: 100px;
+        left: 140px;
+      }
+      .right-eye {
+        width: 50px;
+        height: 115px;
+        border-radius: 50%;
+        position: absolute;
+        top: 100px;
+        right: 140px;
+      }
+      .nose {
+        width: 110px;
+        height: 70px;
+        border-radius: 50%;
+        position: absolute;
+        top: 220px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+    </style>
+  </body>
+</html>
